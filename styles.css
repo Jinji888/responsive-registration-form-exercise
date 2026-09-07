@@ -70,7 +70,7 @@ textarea {
     outline: none;
     width: 100%;
     max-width: 400px;
-    transition: border-color 0.3s ease;
+    transition: border-color 0.4s ease;
 }
 
 .submit-btn {
