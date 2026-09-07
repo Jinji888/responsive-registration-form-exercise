@@ -1,4 +1,4 @@
-# Responsive Registration Form 📝
+# Registration Form (HTML/CSS/JS) Project 📝
 
 A clean, modern, and fully validated registration form built from scratch as a university assignment. This project serves as a key **milestone** in my journey as a SWE undergrad.
 
