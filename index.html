@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de la persona Usuaria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Seccion info personal-->
+    <h1>Registro de la persona Usuaria</h1>
+
+    <form id="formulario-usuario">
+        <div class="campos">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Ingresa tu nombre" required>
+        </div>
+
+        <div class="campos">
+            <label for="apellido">Apellidos</label>
+            <input type="text" id="apellido" placeholder="Ingresa tus apellidos" required>
+        </div>
+
+        <div class="campos">
+            <label for="email">Correo electrónico</label>
+            <input type="email"  id="email" placeholder="ejemplo@correo.com" required>
+        </div>
+
+        <div class="campos">
+            <label for="pwd">Contraseña</label>
+            <input type="password" id="pwd" placeholder="Ingresa tu contraseña" required>
+        </div>
+
+        <div class="campos">
+            <label for="sobre-mi">Descripción</label>
+            <textarea id="sobre-mi" cols="40" rows="8" placeholder="Ingresa una descripción sobre ti..." required></textarea>
+        </div>
+
+        
+        <!--Seccion intereses-->
+        <div class="campos">
+            <label>Intereses</label>
+            <div class="checkboxes">
+                <label><input type="checkbox" id="interes1">Tecnología</label>
+                <label><input type="checkbox" id="interes2">Arte</label>
+                <label><input type="checkbox" id="interes3">Deporte</label>
+            </div>
+        </div>
+        <input type="submit" class="submit-btn" value="Registrarse">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
