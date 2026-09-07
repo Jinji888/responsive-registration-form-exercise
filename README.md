@@ -13,4 +13,4 @@ A clean, modern, and fully validated registration form built from scratch as a u
 * **Layout Control:** Mastered switching from raw document flows to controlled vertical block positioning without creating breaking screen scrolls or cluttered elements.
 * **Component Isolation:** Learned how to target nested elements correctly via parent selectors (`.checkboxes label`) and implement theme-aligned styling with properties like `accent-color`.
 * **State Management:** Learned to balance user experience bugs—like replacing aggressive layout reflows with targeted element micro-interactions and smooth transitions.
-* **Architecture Best Practices:** Implemented proper file segregation by splitting the structure (HTML), presentation (CSS), and logic (JS) into separate, high-performing files.
+* **Architecture Best Practices:** Implemented proper file segregation by splitting the structure (HTML), presentation (CSS), and logic (JS) into separate files.
