@@ -2,7 +2,7 @@
 
 A clean, modern, and fully validated registration form built from scratch as a university assignment. This project serves as a key **milestone** in my journey as a SWE undergrad.
 
-<img width="1267" height="981" alt="form exercise" src="https://github.com/user-attachments/assets/f84d9ad0-2bb5-491a-8e34-a16be05d4be2" />
+<img width="1333" height="981" alt="form exercise" src="https://github.com/user-attachments/assets/1db2ad42-08b0-42d2-b220-0cb1f10a3ac9" />
 
 ## Key Features & What I Used
 * **HTML5:** Semantic architecture, form structuring, and native client-side validation (`required` fields).
