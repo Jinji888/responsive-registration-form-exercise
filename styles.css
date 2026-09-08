@@ -6,7 +6,6 @@ body {
     background-image: url(pexels-ian-panelo-8670494.jpg);
     background-attachment: fixed;
     background-size: auto;
-    font-family: sans-serif;
     margin: 0;
     padding: 15px 15px;
     box-sizing: border-box;
@@ -24,7 +23,7 @@ form {
 
 h1 {
     display: block;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: aliceblue;
     text-align: center;
     background-color: rgb(15, 123, 232);
@@ -34,6 +33,10 @@ h1 {
     border-radius: 10px;
     margin-top: 0;
     }
+
+.campos {
+    margin-bottom: 20px;
+}
 
 .campos label {
     display: block;
@@ -45,14 +48,9 @@ textarea {
     resize: none;
 }
 
-.campos {
-    margin-bottom: 20px;
-}
-
 .checkboxes label{
     margin-bottom: 5px;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: lighter;
 }
 
 #interes1, #interes2, #interes3 {
